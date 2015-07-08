@@ -93,7 +93,7 @@ module.exports = function(grunt) {
         map: false,
         processors: [
           require('autoprefixer-core')({
-            browsers: 'last 5 version'
+            browsers: 'last 4 version'
           }).postcss,
           require('csswring').postcss
         ]
