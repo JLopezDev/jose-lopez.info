@@ -13,9 +13,9 @@
     "npm": ">=1.4.28"
   },
   "scripts": {
-    "start": "grunt",
-    "test": "grunt test",
-    "postinstall": "bower install --config.interactive=false || true"
+    "stop": "pm2 stop jlopez || true",
+    "postinstall": "bower install --config.interactive=false || true",
+    "start": "NODE_ENV=production PORT=9001 pm2 start server.js --name jlopez"
   },
   "dependencies": {
     "express": "~4.10.1",
