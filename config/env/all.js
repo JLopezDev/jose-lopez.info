@@ -10,7 +10,7 @@ module.exports = {
 	templateEngine: 'swig',
 	// The secret should be set to a non-guessable string that
 	// is used to compute a session hash
-	sessionSecret: 'up3group6915',
+	sessionSecret: 'secretSquirrel',
 	// The name of the MongoDB collection to store sessions in
 	sessionCollection: 'sessions',
 	// The session cookie settings
@@ -48,7 +48,7 @@ module.exports = {
       ]
 		},
 		css: [
-      'public/_/css/main.css'
+      'public/css/main.min.css'
     ],
 		js: [
       'public/js/main.min.js'
