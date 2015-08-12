@@ -1,24 +1,14 @@
 {
-  "name": "men-stack node-template",
-  "version": "0.0.0",
-  "authors": [
-    "up3"
-  ],
-  "moduleType": [
-    "node"
-  ],
-  "license": "MIT",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": "~2.1.4",
-    "moment": "~2.10.3",
-    "lodash": "~3.9.3"
-  }
+	"name": "jlopezdev",
+	"version": "0.0.1",
+	"description": "Jose Lopez, Homepage",
+	"dependencies": {
+		"bootstrap": "~3",
+		"angular": "~1.2",
+		"angular-resource": "~1.2",
+		"angular-mocks": "~1.2",
+		"angular-bootstrap": "~0.11.2",
+		"angular-ui-utils": "~0.1.1",
+		"angular-ui-router": "~0.2.11"
+	}
 }

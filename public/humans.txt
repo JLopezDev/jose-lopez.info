@@ -2,4 +2,14 @@
 # The humans responsible & technology colophon
 
 # TEAM
-    Up3 Team -- Developers -- @up3
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
