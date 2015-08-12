@@ -8,7 +8,8 @@
 		"npm": "1.4.x"
 	},
 	"scripts": {
-		"start": "grunt",
+    "stop": "pm2 stop jose",
+		"start": "pm2 start jose",
 		"test": "grunt test",
 		"postinstall": "bower install --config.interactive=false"
 	},
