@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/_layout.scss"],"names":[],"mappings":"AAAA;EACE,uBAAuB,EACxB;;AAED;EAGI,YAAY;EACZ,kBAAkB,EACnB;;AALH;EAQI,YAAY,EACb","file":"app.css","sourcesContent":["* {\n  box-sizing: border-box;\n}\n\n.site-container {\n  \n  .mdl-grid {\n    width: 100%;\n    max-width: 1146px;\n  }\n  \n  .mdl-card {\n    width: 100%;\n  } \n}"],"sourceRoot":"/source/"}

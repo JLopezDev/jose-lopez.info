@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box; }
+
+.site-container .mdl-grid {
+  width: 100%;
+  max-width: 1146px; }
+
+.site-container .mdl-card {
+  width: 100%; }
+
+/*# sourceMappingURL=app.css.map */

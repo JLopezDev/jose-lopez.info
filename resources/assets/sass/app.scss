@@ -1,2 +1,7 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// skeleton micro frame work
+//@import "skeleton/skeleton";
+//@import "app/variables";
+//@import "app/base";
 
+@import "app/layout";
+@import "app/components/card";
