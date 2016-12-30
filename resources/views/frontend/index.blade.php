@@ -44,7 +44,7 @@
                <img src="/img/profile.jpg" width="250" height="250" alt="avatar">
             </div>
             <div id="text-header">
-               <h1>Hello,<br>I'm Jose <span>Lopez</span><sup>31yo</sup> and this is my resum&eacute;/cv</h1>
+               <h1>Hello,<br>I'm Jose <span>Lopez</span><sup>{{ \Carbon\Carbon::createFromDate('1985', '02', '05')->diffInYears(\Carbon\Carbon::now())  }}</sup> and this is my resum&eacute;/cv</h1>
             </div>
          </div>
 
