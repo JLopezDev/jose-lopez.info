@@ -23,6 +23,7 @@
 <!-- BOOTSTRAP -->
 <script src="/js/bootstrap.min.js"></script>
 <!-- SCRIPTS -->
-<script src="/js/scripts.js"></script>
+{{--<script src="/js/scripts.js"></script>--}}
+@yield('scripts')
 </body>
 </html>
